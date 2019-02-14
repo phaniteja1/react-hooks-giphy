@@ -1,0 +1,47 @@
+{
+  "name": "react-hooks-giphy",
+  "version": "1.0.0",
+  "description": "React component for displaying Gif using Giphy API",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaniteja1/react-hooks-giphy.git"
+  },
+  "keywords": [
+    "[\"react\"",
+    "\"hooks\"",
+    "\"gif\"",
+    "\"giphy\"]"
+  ],
+  "author": "phaniteja1",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/phaniteja1/react-hooks-giphy/issues"
+  },
+  "homepage": "https://github.com/phaniteja1/react-hooks-giphy#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
