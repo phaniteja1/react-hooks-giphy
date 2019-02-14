@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-giphy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for displaying Gif using Giphy API",
   "main": "dist/index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   "author": "phaniteja1",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
   },
   "bugs": {
     "url": "https://github.com/phaniteja1/react-hooks-giphy/issues"
