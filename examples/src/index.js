@@ -1,7 +1,17 @@
 import React from "react";
-import { render } from "react-dom";
-import Giphy from "../src";
+import ReactDOM from "react-dom";
+import Giphy from "../../src";
 
-const App = () => <Giphy />;
+import "./styles.css";
 
-render(<App />, document.getElementById("root"));
+function App() {
+  return (
+    <div className="App">
+      <h1>Giphy Plugin Testing</h1>
+      <Giphy />
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
