@@ -10,6 +10,8 @@
 
 Super easy Giphy API support for ReactJS
 
+![Alt Text](https://media.giphy.com/media/3o7qDXzmWyT3BgcyGc/giphy.gif)
+
 ## Dependencies
 
 Needs `axios` as a dependency
