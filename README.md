@@ -33,13 +33,13 @@ yarn add axios
 ### npm
 
 ```bash
-npm install --save @use-hooks/axios
+npm install --save react-hooks-giphy
 ```
 
 ### yarn
 
 ```bash
-yarn add @use-hooks/axios
+yarn add react-hooks-giphy
 ```
 
 ## Demo
