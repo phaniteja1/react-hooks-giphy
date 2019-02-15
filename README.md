@@ -4,7 +4,9 @@
 
 [![NPM version][npm-image]][npm-url]
 [![npm download][download-image]][download-url]
-[![Build Status][travis-image]][travis-url]
+![last commit][last-commit-image]
+![Repo size][repo-size-image]
+![Github Top Language][language-image]
 
 Custom React Hooks for Axios.js
 
@@ -99,6 +101,12 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
+## Contribution
+
+### Make a PR
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/phaniteja1/react-hooks-giphy)
+
 ## Development
 
 > Node >= v8 LTS
@@ -115,3 +123,6 @@ ReactDOM.render(<App />, rootElement);
 [npm-url]: https://npmjs.com/package/react-hooks-giphy
 [download-image]: https://img.shields.io/npm/dm/react-hooks-giphy.svg?style=flat-square
 [download-url]: https://npmjs.com/package/react-hooks-giphy
+[language-image]: https://img.shields.io/github/languages/top/phaniteja1/react-hooks-giphy.svg?style=flat
+[repo-size-image]: https://img.shields.io/github/repo-size/phaniteja1/react-hooks-giphy.svg?style=flat
+[last-commit-image]: https://img.shields.io/github/last-commit/phaniteja1/react-hooks-giphy.svg?style=flat
