@@ -8,7 +8,7 @@
 ![Repo size][repo-size-image]
 ![Github Top Language][language-image]
 
-Custom React Hooks for Axios.js
+Super easy Giphy API support for ReactJS
 
 ## Dependencies
 
