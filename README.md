@@ -42,7 +42,7 @@ npm install --save @use-hooks/axios
 yarn add @use-hooks/axios
 ```
 
-### Demo
+## Demo
 
 [Live Show](https://codesandbox.io/s/v8k2yw0pz0)
 
@@ -54,22 +54,33 @@ yarn add @use-hooks/axios
 import Giphy from "react-hooks-giphy";
 ```
 
-### Get Random Gif
+### Get random gif
 
 ```js
 <Giphy />
 ```
 
-### Get Gif with a `Tag`
+### Get gif with a `tag`
 
 ```js
 <Giphy tag="happy" />
 ```
 
-### Pass in `triggers` to refresh with a new Gif
+### Pass in `triggers` to refresh with a new gif
 
 ```js
 <Giphy triggers={[triggers]} />
+```
+
+## Configuring Options
+
+### Show gif title
+
+```js
+const config = {
+  title: true
+};
+<Giphy {...config} />;
 ```
 
 ## Example
